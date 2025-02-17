@@ -8,6 +8,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { CommonModule } from '@angular/common';
 import { MatDividerModule } from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
+import { HttpClientModule } from '@angular/common/http';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -19,7 +20,9 @@ import {MatListModule} from '@angular/material/list';
     MatIconModule,
     CommonModule,
     MatDividerModule,
-    MatListModule],
+    MatListModule,
+    HttpClientModule
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
