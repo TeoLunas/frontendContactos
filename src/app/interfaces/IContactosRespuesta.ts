@@ -1,8 +1,8 @@
 export interface IContactosRespuesta {
-  ClientId : number;
-  FirstName : string;
-  LastName : string;
-  Phone : string;
-  Email : string;
-  CountryID : number;
+  clientId: number;
+  firstName: string;
+  lastName: string;
+  phone: string;
+  email: string;
+  countryID: number;
 }

@@ -1,7 +1,7 @@
 export interface IPagedRespuesta<T> {
-    Data: T;
-    PageNumber: number;
-    PageSize: number;
-    TotalRecords: number;
-    TotalPages: number;
+  data: T[];
+  pageNumber: number;
+  pageSize: number;
+  totalRecords: number;
+  totalPages: number;
 }
